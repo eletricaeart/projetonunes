@@ -1,0 +1,57 @@
+
+
+cozinha(
+  [
+    4.80, 7, 3.50, 1.60, 1.30, 5.40
+  ]
+  m2: 31.52
+  a: 25.92 + 5.60 = 31.52 * 1.05 = 33.09
+  p: 25.1
+  materiais: {
+    placas: 16
+    parafusos: 480
+    tabica: 10
+    trf: 40
+  }
+)
+
+entrada(
+  [
+    4.70, 5.25, 4.70, .90, 2.16, .53, .20, 2.04, 4.18 
+  ] 
+  m2: 24.67
+  a:  24.67 * 1.05 = 25.90
+  p: 25.06
+  materiais: {
+    placas: 12
+    parafusos: 360
+    tabica: 9
+    trf: 36
+  }
+
+)
+
+teste(
+  m2: 
+  [
+    10, 4.5, 7, 3.5, 3, 1
+  ]
+  a: 31.5 + 3 = 34.5
+  p: 29
+)
+
+area da chapa: 2.16m2
+
+area / area da chapa + 5%
+cantoneiras:
+p / 3
+diagramação:
+cada .60 
+
+tabica:
+diagramação:
+cada .60 + 2peças
+
+tirante regulador e fixador:
+para cantoneira = 3 jogos por canaleta
+para tabica = 4 jogos por canaleta
